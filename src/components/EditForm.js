@@ -20,7 +20,7 @@ export function EditModal({ isOpen, onClose, product, onSave }) {
     e.preventDefault();
 
     try {
-      const response = await fetch(`http://localhost:3000/products/update/${product.id}`, {
+      const response = await fetch(`https://udgam-backend-host.onrender.com/products/update/${product.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

@@ -36,7 +36,7 @@ const Form = () => {
     };
 
     axios
-      .post("http://localhost:3000/add-product", productData)
+      .post("https://udgam-backend-host.onrender.com/add-product", productData)
       .then((response) => {
         console.log("Product added:", response.data);
         onCloseModal();

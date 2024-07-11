@@ -32,6 +32,7 @@ function App() {
           <Route path="/admin" element={<Admin />} /> {/* Wrap Admin in a Route component */}
         </Routes>
       </div>
+      <p className='text-gray-300'>Created by Jyoti Saini</p>
     </Router>
   );
 }
